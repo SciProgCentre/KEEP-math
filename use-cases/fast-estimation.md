@@ -41,8 +41,7 @@ np.corrcoef(data['a1'], data['a2'])
 
 Several line of code  and I already known, what my supervisor will send me to remake all work.
 
-How conclusions can we make from this example? 
-Какие полезные выводы мы можем сделать из этого примера? It can be noted that this code is declarative rather than imperative, I do not describe in detail what I should do with the data, I just say: load data, make histogramm. For comparasion, for loading data on Kotlin, I must make this for example:
+How conclusions can we make from this example? It can be noted that this code is declarative rather than imperative, I do not describe in detail what I should do with the data, I just say: load data, make histogramm. For comparasion, for loading data on Kotlin, I must make this for example:
 ```kotlin
 data class Data(
         val a1: Double,
@@ -75,6 +74,6 @@ Only data loading request code more than all processing on Python. Of course in 
 val data = read(filename, type=Data:class)
 ```
 Or building of histogramm: for example, if I want use  [hep.aida](https://dst.lbl.gov/ACSSoftware/colt/api/hep/aida/package-summary.html), I must be create factory, next create histogramm and only later I can feel histogramm --- three action instead one action. 
-Или же построение гистограммы: например при использовании, исследователь должен создать фабрику, затем создать гистограмму, и только потом он может гистограмировать, три действия там где достаточно одного.In addition, there is a separate issue of performance, for example, the existing solution in [kmath](https://github.com/altavir/kmath) is good in terms of thread safety, but memory consumption in the case of processing data with large dimensions is redundant and leads to high GC load.
+In addition, there is a separate issue of performance, for example, the existing solution in [kmath](https://github.com/altavir/kmath) is good in terms of thread safety, but memory consumption in the case of processing data with large dimensions is redundant and leads to high GC load.
 
 As a conclusion, it can be said that creating a compact and convenient Scientific DSL should be one of the goals realized when developing a library for scientific programming, and this DSL should be made similar to the Matlab / Python syntax to facilitate the transition.
