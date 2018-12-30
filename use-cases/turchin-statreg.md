@@ -7,7 +7,7 @@ Turchin's method of statistical regularization
 
 During analysis of experimental data, one usually needs to restore a signal after it has been convoluted with some kind of apparatus function. According to Hadamard's definition this problem is ill-posed and requires regularization to provide sensible results. The Turchin's method of statistical regularization based on the Bayesian approach to the regularization strategy.
 
-Description of Turchin's method of statistical regularization, we could show [here](Description of Turchin's method of statistical regularization, we could show here.).
+Description of Turchin's method of statistical regularization, we could show [here](https://doi.org/10.1051/epjconf/201817707005).
 
 Python implementation, we could find on [github](https://github.com/mipt-npm/statreg-py)
 
