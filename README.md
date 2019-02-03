@@ -7,7 +7,7 @@ The purpose of this repository is to collect the ideas and use-cases for mathema
 The workflow for this repository is similar to the one for general [Kotlin KEEP](https://github.com/Kotlin/KEEP). Requests and general proposals are discussed in issue section, while fully-formed contributions are made by pull-request of a document to appropriate section. The pull requests are discussed and then accepted or rejected by community.
 
 ## Discussion
-The discussion for mathematics is done in [Kotlin slack](https://kotlinlang.slack.com) in ][#mathematics](https://kotlinlang.slack.com/messages/CE5HPKBRN/) and [#science](https://kotlinlang.slack.com/messages/CEXV2QWNM) channels.
+The discussion for mathematics is done in [Kotlin slack](https://kotlinlang.slack.com) in [#mathematics](https://kotlinlang.slack.com/messages/CE5HPKBRN/) and [#science](https://kotlinlang.slack.com/messages/CEXV2QWNM) channels.
 
 ## Sections
 Currently repository contains following sections:
